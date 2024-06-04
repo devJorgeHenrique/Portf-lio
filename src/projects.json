@@ -1,0 +1,21 @@
+[
+    {
+      "title": "Plataforma de Cursos",
+      "description": "Uma plataforma online para venda de cursos, implementada com Node.js, Express e React.",
+      "link": "https://github.com/jorge/plataforma-cursos",
+      "image": "path/to/image1.jpg"
+    },
+    {
+      "title": "Sistema de Autoatendimento para Lavanderia",
+      "description": "Um sistema de autoatendimento via WhatsApp para uma lavanderia, utilizando Twilio WhatsApp API.",
+      "link": "https://github.com/jorge/sistema-autoatendimento-lavanderia",
+      "image": "path/to/image2.jpg"
+    },
+    {
+      "title": "Aplicativo Web de Tarefas",
+      "description": "Um aplicativo para gerenciar tarefas diárias, desenvolvido com React e Firebase.",
+      "link": "https://github.com/jorge/app-tarefas",
+      "image": "path/to/image3.jpg"
+    }
+  ]
+  
