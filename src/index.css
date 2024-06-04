@@ -31,8 +31,7 @@ section {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 1rem;
-  overflow-x: hidden; /* Garante que nenhum elemento exceda a largura da tela */
+  padding: 0 1rem; /* Adiciona padding nas laterais */
   box-sizing: border-box; /* Inclui padding e borda no tamanho total */
 }
 

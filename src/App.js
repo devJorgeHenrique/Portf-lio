@@ -9,13 +9,15 @@ import Projects from './pages/Projects';
 function App() {
   return (
     <Router>
-      <div className="App">
+      <div className="flex flex-col min-h-screen">
         <Header />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/projects" element={<Projects />} />
-        </Routes>
+        <main className="flex-grow">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/projects" element={<Projects />} />
+          </Routes>
+        </main>
         <Footer />
       </div>
     </Router>
