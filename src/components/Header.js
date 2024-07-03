@@ -1,3 +1,4 @@
+// src/components/Header.js
 import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
@@ -12,7 +13,9 @@ const Header = () => {
   return (
     <header className="bg-gray-800 text-white p-4">
       <nav className="container mx-auto flex justify-between items-center">
-        <Link to="/" className="text-2xl font-bold">Jorge's Portfolio</Link>
+        <Link to="/" className="text-xl font-bold">
+          Jorge's Portfolio
+        </Link>
         <div className="md:hidden" onClick={toggleMenu}>
           {isOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
         </div>
