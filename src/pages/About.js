@@ -11,9 +11,9 @@ const About = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5 }}
         >
-          <h1 className="text-5xl font-bold mb-4 text-gray-100">Sobre Mim</h1>
+          <h1 className="text-5xl font-bold mb-4 text-gray-100 p-24">Sobre Mim</h1>
           <p className="text-lg text-gray-300 mb-8">
-            Sou Jorge, formado em Analise e Desenvolvimento de sistema desenvolvo softwares, apaixonado por criar soluções inovadoras. Com experiência em várias tecnologias, como Node.js, React, e muito mais, estou sempre em busca de novos desafios para aprimorar minhas habilidades.
+            Sou Jorge, formado em Analise e Desenvolvimento de sistema, apaixonado por criar soluções inovadoras. Com experiência em várias tecnologias, como Node.js, React, e muito mais, estou sempre em busca de novos desafios para aprimorar minhas habilidades.
           </p>
         </motion.section>
 
@@ -23,7 +23,7 @@ const About = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5 }}
         >
-          <h2 className="text-4xl font-bold mb-4 text-gray-100">Minha Jornada</h2>
+          <h2 className="text-4xl font-bold mb-4 text-gray-100 ">Minha Jornada</h2>
           <p className="text-lg text-gray-300 mb-4">
             Comecei minha carreira de estudos em 2021 como um entusiasta, aprendendo e crescendo com cada projeto. Ao longo dos anos, priorizei buscar uma forte compreensão das melhores práticas de desenvolvimento de software e adquiri uma ampla gama de habilidades técnicas .
           </p>

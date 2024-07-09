@@ -23,7 +23,7 @@ const Projects = () => {
   return (
     <div>
       <main className="container mx-auto p-4">
-        <section className="mb-16 text-center">
+        <section className="mb-16 text-center p-24">
           <motion.h1
             className="text-6xl font-bold mb-8 text-gray-100"
             initial={{ opacity: 0, y: -50 }}
